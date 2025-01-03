@@ -1,0 +1,92 @@
+body {
+  background-color: #c4c4c4;
+  font-family: "Roboto";
+}
+.title {
+  text-align: center;
+}
+.label-repo {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.label-repo__repo-list {
+  margin: 0;
+  padding: 0;
+}
+.label-repo__search-repo {
+  all: unset;
+  font-size: 48px;
+  padding-left: 10px;
+  width: 500px;
+  height: 61px;
+  margin-bottom: 1px;
+  background-color: #ffffff;
+}
+.label-repo__ulMin {
+  text-align: left;
+  padding-left: 0;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 1px;
+  width: 507.5px;
+  background-color: #e3e3e3;
+  border: 2px solid #000000;
+}
+.label-repo__liMin,
+.label-repo__liMinInfo {
+  list-style: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 500px;
+  height: 44px;
+  padding-left: 10px;
+}
+.label-repo__ulMin:hover {
+  cursor: pointer;
+  background-color: #65cdf9;
+}
+.label-repo__ulMinInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px;
+  padding: 0;
+  font-size: 24px;
+  width: 508px;
+  height: 101px;
+  border: 2px solid #000000;
+  background-color: #e27beb;
+}
+.label-repo__info-list {
+  padding: 0;
+}
+.label-repo__liMinInfo {
+  align-items: center;
+  width: 380px;
+}
+.cont {
+  display: flex;
+}
+.first-cont {
+  width: 420px;
+}
+.bt-close {
+  all: unset;
+  width: 64px;
+  height: 64px;
+}
+.img-close {
+  cursor: pointer;
+}
+.last-cont {
+  display: flex;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
