@@ -38,7 +38,7 @@ function getRepos(key) {
               infoList.insertAdjacentHTML(
                 "beforeend",
                 `
-                <div class="cont">
+                <li class="cont">
                 <div class="first-cont">
                     <ul class="label-repo__ulMinInfo" data-repo-id="${repoId}">
                       <li class="label-repo__liMinInfo">Name: ${data.items[i].name}</li>
@@ -51,7 +51,7 @@ function getRepos(key) {
                         <img src="img/close.png" alt="Закрыть" width="64px" class="img-close">
                       </button>
                     </div>
-                  </div>
+                  </li>
                 `
               );
             }
