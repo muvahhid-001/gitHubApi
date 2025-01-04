@@ -33,6 +33,8 @@ function getRepos(key) {
           const liElements = document.querySelectorAll(".label-repo__liMin");
 
           liElements[i].addEventListener("click", () => {
+            input.value = "";
+            list.innerHTML = "";
             const repoId = data.items[i].id;
             if (!infoList.querySelector(`[data-repo-id="${repoId}"]`)) {
               infoList.insertAdjacentHTML(
